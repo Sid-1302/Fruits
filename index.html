@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        * {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-transform: capitalize;
+            font-size: 20px;
+        }
+
+        input[type='text'],
+        input[type='number'] {
+            display: block;
+            background: white;
+            margin: 15px;
+            padding: 2px;
+        }
+
+        button {
+            margin: 15px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1>Hi !</h1>
+    <form action="/" method="post" class="form">
+        <input type="text" name="name" required placeholder="Your Name">
+        <input type="number" name="age" required placeholder="Your Age">
+        <input type="text" name="fruit" placeholder="Your Favourite Fruit">
+        <button type="submit">Submit</button>
+    </form>
+
+    <br><br><br>
+    <h2>Check details </h2>
+    <form action="/" method="post">
+        <input type="text" name="checkName" placeholder="Enter Name">
+        <button type="submit">Check</button>
+    </form>
+</body>
+
+</html>
